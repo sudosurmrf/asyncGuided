@@ -72,7 +72,7 @@ Make sure to remember that we still need to use async/await for any asynchronous
   Let's also create a button at the end of the html with a class of "getDetails". we will use this button as a "go back" button
   
 
-    12. let's call our dynamic render fuction again, this time passing the singleCard as the argument.      
+12. let's call our dynamic render fuction again, this time passing the singleCard as the argument.      
       
 
 13. Once our html looks good for the single pokemon view and we have our button created, lets again add our event listener to it.
