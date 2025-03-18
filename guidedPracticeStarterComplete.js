@@ -117,7 +117,7 @@ functions as a "go back" button in this situation?*/
   backBtn.addEventListener('click', getPokemon);
   
   // 14. Make sure to add one final touch to your projects, invoke the addBtnInteraction function, passing the backBtn as the argument. 
-  //optionally also call this function up above at the end of the pokemonArray.map, right before the return. Pass that function the details button. (good luck btw).
+  //optionally also call this function up above at the end of the pokemonArray.map, right before the return. Pass that function the details button as an argument. (good luck btw).
   addBtnInteraction(backBtn);
   // lets see what your website looks like now! 
   

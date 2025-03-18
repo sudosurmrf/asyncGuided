@@ -66,7 +66,7 @@ Make sure to remember that we still need to use async/await for any asynchronous
   
   /* 11.Just like before, now that we have our api call and have seen what data it is returning, lets create the HTML for what a detail page
   should look like, where we just want to see the specific pokemon's information and nothing else. (we can also add another class to this card
-  so that it is styled slightly differently than the multi-card view, but still keeps it's over look consistent.
+  so that it is styled slightly differently than the multi-card view, but still keeps it's over look consistent.)
   
   Let's also create a button at the end of the html with a class of "getDetails". we will use this button as a "go back" button*/
   
@@ -80,7 +80,7 @@ functions as a "go back" button in this situation?*/
  
   
   // 14. Make sure to add one final touch to your projects, invoke the addBtnInteraction function, passing the backBtn as the argument. 
-  //optionally also call this function up above at the end of the pokemonArray.map, right before the return. Pass that function the details button. (good luck btw).
+  //optionally also call this function up above at the end of the pokemonArray.map, right before the return. Pass that function the details button as an argument. (good luck btw).
   // addBtnInteraction(backBtn);
   // lets see what your website looks like now! 
   
