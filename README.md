@@ -66,24 +66,24 @@ Make sure to remember that we still need to use async/await for any asynchronous
 
 
     
-     11.Just like before, now that we have our api call and have seen what data it is returning, lets create the HTML for what a detail page
+11.Just like before, now that we have our api call and have seen what data it is returning, lets create the HTML for what a detail page
     should look like, where we just want to see the specific pokemon's information and nothing else. (we can also add another class to this new div
     so that it is styled slightly differently than the multi-card view, but still keeps it's overall look consistent.)
     
-    Let's also create a button at the end of the html with a class of "getDetails". we will use this button as a "go back" button
+Let's also create a button at the end of the html with a class of "getDetails". we will use this button as a "go back" button
     
     
-     12. let's call our dynamic render fuction again, this time passing the state of the singlePokemon as the argument.      
+12. let's call our dynamic render fuction again, this time passing the state of the singlePokemon as the argument.      
    
 
     
-     13. Once our html looks good for the single pokemon view and we have our button created, lets again add our event listener to it.
+13. Once our html looks good for the single pokemon view and we have our button created, lets again add our event listener to it.
     this time we will simply re-render the original data that we have stored in state for allPokemon. By not triggering a new api call
     and re-rendering from a local (cached) copy of the api data, we save computer resources and are much more efficient.
     After we re-render, make sure to reset the state of singlePokemon to empty so we don't carry over unwanted data. 
     
    
-     15* line 118 also add at the end, after we create the add fav. 
+15* line 118 also add at the end, after we create the add fav. 
     
 
  14. Now that we have successfully done 2 api get requests to fetch data, lets now do a post request to send data to an api. POST requests are typically used to send data from
