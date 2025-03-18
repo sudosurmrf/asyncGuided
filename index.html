@@ -3,12 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="./guidedPractice.js"></script>
-  <title>Async Await Guided Practice</title>
+  <script defer src="./guidedPracticeStarter.js"></script>
+  <link rel="stylesheet" href="./index.css" />
+  <script defer type="module">
+    import Grid1Background from 'https://cdn.jsdelivr.net/npm/threejs-components@0.0.16/build/backgrounds/grid1.cdn.min.js';
+    const bg = Grid1Background(document.getElementById('webgl-canvas'));
+    document.addEventListener('click', () => {
+      bg.grid.setColors([0xffffff * Math.random(), 0xffffff * Math.random(), 0xffffff * Math.random()]);
+      bg.grid.light1.color.set(0xffffff * Math.random());
+      bg.grid.light1.intensity = 500 + Math.random() * 1000;
+      bg.grid.light2.color.set(0xffffff * Math.random());
+      bg.grid.light2.intensity = 250 + Math.random() * 250;
+  });
+  </script>
+  <title>Async Await Pokemon</title>
 </head>
 <body>
-  <button id="getButton">Get API data!</button>
-  <div id="root"></div>
-  
+  <button id="getButton">Get API Data!</button>
+    <canvas id="webgl-canvas"></canvas>
+    <div id="root"></div>  
 </body>
 </html>
