@@ -12,6 +12,7 @@ body{
   height: 100vh;
 }
 #root {
+  top: 10%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 	grid-gap: 2em;
@@ -67,6 +68,7 @@ body{
 #webgl-canvas {
   height:100vh;
   position: fixed;
+  width: 100vw !important;
   top: 0;
   right: 0;
   bottom: 0;
@@ -107,6 +109,9 @@ button {
   width: auto;
   padding: 20px;
 }
+.single * {
+  margin: 10px;
+}
 
 .single > img {
   height: 200px;
@@ -126,4 +131,43 @@ button {
     text-shadow: 10px 5px 10px rgb(47, 46, 46);
     box-shadow: 2px 5px rgba(0, 0, 0, 0.242);
   
+}
+
+#currFav {
+  position: relative;
+  padding: 45px 25px;
+  font-size: 1.25rem;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(135deg, #ffbc00, #ff0058);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+  text-shadow: 10px 5px 10px rgb(47, 46, 46);
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.242);
+  margin-bottom: 40px;
+  width: 400px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#catchEm {
+  z-index: 5;
+  position: relative; 
+  float:right;
+  padding: 45px;
+  font-size: 1.25rem;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(135deg, #ffbc00, #ff0058);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+  text-shadow: 10px 5px 10px rgb(47, 46, 46);
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.242);
+  margin-bottom: 40px;
+  width: 400px;
+  font-size: 2rem;
+  text-align: center;
+
 }
