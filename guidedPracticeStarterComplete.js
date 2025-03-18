@@ -94,7 +94,7 @@ async function singlePokemon(url) {
   
   /* 11.Just like before, now that we have our api call and have seen what data it is returning, lets create the HTML for what a detail page
   should look like, where we just want to see the specific pokemon's information and nothing else. (we can also add another class to this card
-  so that it is styled slightly differently than the multi-card view, but still keeps it's over look consistent.
+  so that it is styled slightly differently than the multi-card view, but still keeps it's over look consistent.)
   
   Let's also create a button at the end of the html with a class of "getDetails". we will use this button as a "go back" button*/
   const singleCard = document.createElement('div');
